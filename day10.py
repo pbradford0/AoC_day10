@@ -16,8 +16,7 @@ def look_say(line):
     lns += str(combo)+prev_char
     combo = 1
     prev_char = x
-  print lns
-  return lns
+  return lns+str(combo)+prev_char
 
 def lns_40(filename):
   len_after_40 = 0
@@ -26,10 +25,10 @@ def lns_40(filename):
   #since the input has to be one line, read() must be used
   input = open(filename, 'rU').read()
   lns = look_say(input)
-  #while loops <= 39:
-  #  lns = look_say(lns)
-  #  loops += 1
-  #len_after_40 = len(str(lns))
+  while loops <= 48:
+    lns = look_say(lns)
+    loops += 1
+  len_after_40 = len(str(lns))
   return len_after_40
 
 def main():
