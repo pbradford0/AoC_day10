@@ -1,5 +1,5 @@
 #Author: Phil Bradford
-#Solution for http://adventofcode.com/2015/day/8
+#Solution for http://adventofcode.com/2015/day/10
 
 import sys
 
