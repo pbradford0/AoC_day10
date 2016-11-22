@@ -38,9 +38,6 @@ def main():
 
   a = lns_40(sys.argv[1])
   print "After 40 loops of Look And Say, the input is length: " + str(a)
-  
-  #b = longest_route(sys.argv[1])
-  #print "The longest route is distance" + str(b)
 
 if __name__ == '__main__':
   main()
